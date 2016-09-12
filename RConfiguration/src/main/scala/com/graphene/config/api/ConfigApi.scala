@@ -1,6 +1,6 @@
-package com.bizruntime.config.api
+package com.graphene.config.api
 
-import com.bizruntime.core._
+import com.graphene.core._
 
 
 //Request Messages

@@ -1,4 +1,4 @@
-package com.bizruntime.core
+package com.graphene.core
 
 abstract class TenantCtx{
     def tenantId:String

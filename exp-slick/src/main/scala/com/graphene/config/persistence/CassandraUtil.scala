@@ -1,4 +1,4 @@
-package com.bizruntime.config.persistence
+package com.graphene.config.persistence
 
  import com.datastax.driver.core.Cluster;
 import com.datastax.driver.core.Session

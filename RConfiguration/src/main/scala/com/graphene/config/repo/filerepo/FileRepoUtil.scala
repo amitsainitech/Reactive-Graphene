@@ -1,9 +1,9 @@
-package com.bizruntime.config.repo.filerepo
+package com.graphene.config.repo.filerepo
 
 import java.nio.file.Files
 import java.nio.file.Paths
 
-import com.bizruntime.core.MSNameSpace
+import com.graphene.core.MSNameSpace
 
 object FileRepoUtil extends App {
   

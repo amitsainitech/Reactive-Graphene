@@ -1,11 +1,11 @@
-package com.bizruntime.config
+package com.graphene.config
 
 import akka.actor.ActorSystem
 import akka.actor.Props
-import com.bizruntime.config.service.ConfigurationServiceSupActor
-import com.bizruntime.config.service.AddConfigurationCmd
+import com.graphene.config.service.ConfigurationServiceSupActor
+import com.graphene.config.service.AddConfigurationCmd
 import com.typesafe.config.ConfigFactory
-import com.bizruntime.config.service.FileRepoUtil
+import com.graphene.config.service.FileRepoUtil
 
 object ConfigurationTestApp extends App {
 

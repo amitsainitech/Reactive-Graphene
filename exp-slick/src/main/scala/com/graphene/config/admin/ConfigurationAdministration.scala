@@ -1,3 +1,3 @@
-package com.bizruntime.config.admin
+package com.graphene.config.admin
 
 case class ProvisionTenantCmd(tenantName:String);

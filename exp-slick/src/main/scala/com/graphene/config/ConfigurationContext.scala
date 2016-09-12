@@ -1,4 +1,4 @@
-package com.bizruntime.config
+package com.graphene.config
 
 class ConfigurationContext(val tenant:String,val requestor:String){
   

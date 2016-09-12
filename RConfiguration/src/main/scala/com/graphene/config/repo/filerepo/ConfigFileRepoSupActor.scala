@@ -1,15 +1,15 @@
-package com.bizruntime.config.repo.filerepo
+package com.graphene.config.repo.filerepo
 
 import java.io.PrintWriter
 
 import scala.io.BufferedSource
 
-import com.bizruntime.config.api.AddConfigurationMsg
-import com.bizruntime.config.api.ConfigurationRequestMsg
-import com.bizruntime.config.api.DeleteConfigurationMsg
-import com.bizruntime.config.api.UpdateConfigurationMsg
-import com.bizruntime.core.MSNameSpace
-import com.bizruntime.core.SuccessReplyMsg
+import com.graphene.config.api.AddConfigurationMsg
+import com.graphene.config.api.ConfigurationRequestMsg
+import com.graphene.config.api.DeleteConfigurationMsg
+import com.graphene.config.api.UpdateConfigurationMsg
+import com.graphene.core.MSNameSpace
+import com.graphene.core.SuccessReplyMsg
 import com.typesafe.config.ConfigFactory
 
 import akka.actor.Actor
@@ -35,8 +35,8 @@ class ConfigFileRepoSupActor extends Actor {
 }
 
 import scala.io._
-import com.bizruntime.config.api.{ConfigurationResponseMsg,RequestedConfigurationNotFoundMsg}
-import com.bizruntime.config.api.ConfigurationAddedResMsg
+import com.graphene.config.api.{ConfigurationResponseMsg,RequestedConfigurationNotFoundMsg}
+import com.graphene.config.api.ConfigurationAddedResMsg
 
 class ConfigurationRequestActor extends Actor {
   val baseDir = ConfigFactory.load().getString("rconfig.fileRepo.baseDir")

@@ -1,6 +1,6 @@
-package com.bizruntime.config.service
+package com.graphene.config.service
 
-import com.bizruntime.config._;
+import com.graphene.config._;
 //Requesting a configuration
 case class FetchConfigurationCmd(override val tenant: String, override val requestor: String, val configNameSpace: String, val configName: String) extends ConfigurationContext(tenant, requestor);
 case class FetchConfigResponse(val request:FetchConfigurationCmd,val filePath:String)

@@ -1,4 +1,4 @@
-package com.bizruntime.config.service
+package com.graphene.config.service
 
 import akka.event.Logging
 import akka.actor.Actor

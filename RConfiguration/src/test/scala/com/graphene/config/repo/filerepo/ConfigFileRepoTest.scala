@@ -1,4 +1,4 @@
-package com.bizruntime.config.repo.filerepo
+package com.graphene.config.repo.filerepo
 import scala.util.Random
  
 import org.scalatest.BeforeAndAfterAll
@@ -16,11 +16,11 @@ import scala.concurrent.duration._
 import scala.collection.immutable
 import org.junit.runner.RunWith
 import akka.testkit.TestProbe
-import com.bizruntime.core.MSNameSpace
-import com.bizruntime.config.api.AddConfigurationMsg
-import com.bizruntime.config.api.ConfigurationAddedResMsg
-import com.bizruntime.config.api.ConfigurationRequestMsg
-import com.bizruntime.config.api.ConfigurationResponseMsg
+import com.graphene.core.MSNameSpace
+import com.graphene.config.api.AddConfigurationMsg
+import com.graphene.config.api.ConfigurationAddedResMsg
+import com.graphene.config.api.ConfigurationRequestMsg
+import com.graphene.config.api.ConfigurationResponseMsg
 
 
 class ConfigFileRepoTest extends TestKit(ActorSystem(

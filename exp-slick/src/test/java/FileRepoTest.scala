@@ -1,4 +1,4 @@
-import com.bizruntime.config.service.FileRepoUtil
+import com.graphene.config.service.FileRepoUtil
 
 class FileRepoTest extends App{
 	

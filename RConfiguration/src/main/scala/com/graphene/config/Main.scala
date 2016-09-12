@@ -1,6 +1,6 @@
-package com.bizruntime.config
+package com.graphene.config
 
-import com.bizruntime.config.repo.ConfigurationSupActor
+import com.graphene.config.repo.ConfigurationSupActor
 import akka.actor.Props
 import akka.actor.ActorSystem
 
