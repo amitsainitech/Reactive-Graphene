@@ -1,0 +1,15 @@
+/bin/
+/target/
+/.classpath
+/.project
+/.settings/
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+.worksheet/
+/.worksheet/
+.cache-main
+.cache-tests

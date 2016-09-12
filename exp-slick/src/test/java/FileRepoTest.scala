@@ -1,0 +1,6 @@
+import com.bizruntime.config.service.FileRepoUtil
+
+class FileRepoTest extends App{
+	
+  FileRepoUtil.writeConfig("D:/Learning-Space/Scala/configRepo","abc.xslt", "myxslt is as follows")
+}
