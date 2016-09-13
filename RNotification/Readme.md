@@ -1,8 +1,5 @@
-# Reactive-Graphene
-Experimental Repo for Reactive Application with Scala and Akka
+# Notification System
 
-# RNotification
-  
 Notification has three main component
 1.) **Delivery Channel**
 	Responsible for delivering the msg to specific endpoint. EmailChanel,TwitterChanel etc.
@@ -12,3 +9,11 @@ Notification has three main component
     Enriches existing data with more information from a given source.
 4.) **DataPipeline **
     Wires and binds all the components and manages their execution.
+	
+Notification{
+		InChanel{ Rest{type=ip}
+		}.DataEnricher{
+		}.DataTransformer{
+		}.OutChanel{
+		}
+}
